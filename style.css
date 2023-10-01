@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(dark.jpg);
+    /* Ganti dengan URL gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    /* Warna teks putih */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+#profile {
+
+    margin: 50px;
+    margin-top: 150px;
+}
+
+#profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* Menjadikan kursor berubah saat mengarahkan ke gambar */
+    transition: transform 0.3s;
+    /* Animasi perubahan skala saat diklik */
+}
+
+#profile img:hover {
+    transform: scale(1.2);
+    /* Perbesar gambar saat kursor diarahkan ke gambar */
+}
+
+#description {
+    margin: auto;
+    height: 100vh;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#description h1 {
+    color: #ffffff;
+    /* Warna teks putih */
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: #1100ff 0px 0px 10px;
+}
+
+
+#description p {
+    color: #fff;
+    /* Warna teks putih */
+}
+
+#contact {
+    background-color: black;
+    width: 100vw;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: #1100ff 0px 0px 10px;
+}
+
+#test {
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
